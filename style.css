@@ -4,7 +4,8 @@ header {
 li {
   display: inline;
   padding: 0px 40px 0px 40px;
-  font-family: Impact;
+  font-family: Gabriola;
+  font-style: italic;
 }
 
 body {
@@ -17,6 +18,7 @@ ul {
 h1 {
   font-size: 60px;
   font-family: Impact;
+  font-style: italic;
   text-align: center;
 
 }
