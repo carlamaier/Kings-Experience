@@ -6,7 +6,7 @@
   <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
+<!--This is the title/main section -->
 <body>
 <header>
   <title> King's Experience </title>
@@ -22,11 +22,46 @@
 <p> <br> Welcome to our blog about our experience at King's, </br>
   <br>with pages about life at uni, exploring London, and the courses we took.</br>
   <br>Hope you enjoy! </br></p>
-
+<!--Social media buttons and newsletter put in a table so that they can go side by side-->
+<table class="table">
+  <tbody>
+    <tr>
+      <td>
+        <form action="action_page.php">
+          <div class="container">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Lorem ipsum..</p>
+          </div>
+          <div class="container" style="background-color:white">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+            <label>
+            <input type="checkbox" checked="checked" name="subscribe"> I want to sign up for the newsletter
+            </label>
+          </div>
+          <div class="container">
+            <input type="submit" value="Subscribe">
+          </div>
+        </form>
+      </td>
+      <td>
+        <a href="https://www.facebook.com" class="fa fa"><img src="fa-facebook.png"></a>
+        <a href="https://i.pinimg.com/736x/aa/60/dd/aa60ddc462b8e3a8335de2fa4c4489bb.jpg" class="fa fa"><img src="fa-robot.png"></a>
+        <a href="https://i.pinimg.com/736x/ed/75/3d/ed753def6f47204f289b2a2a8824c02d.jpg" class="fa fa"><img src="fa-worm.png"></a>
+        <a href="https://i.pinimg.com/736x/5e/df/5c/5edf5c30a3645310a19d5e7d8ae9178f.jpg" class="fa fa"><img src="fa-squig.png"></a>
+        <a href="https://i.pinimg.com/736x/81/51/3b/81513ba95760eb0c54d4c9065e83c270--baby-donkeys-farmy.jpg" class="fa fa"><img src="fa-robot2.png"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- Feedback -->
 <div>
 <br><input type="comment" placeholder="Leave us feedback!">
 <input type="submit"></br>
 </div>
+
+
+
 
 </body>
 </html>
